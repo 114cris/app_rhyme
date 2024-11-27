@@ -1,0 +1,14 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Flutter on Android",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "web-server" // 这里需要替换为你的模拟器ID
+    }
+  ]
+}
+
+
+//run: ./flutter/bin/flutter pub get && ./flutter/bin/flutter run -d web-server --web-port 9000 --web-hostname 0.0.0.0 && echo success # 应用的启动命令
